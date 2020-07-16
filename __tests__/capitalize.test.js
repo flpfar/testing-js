@@ -1,19 +1,24 @@
 import capitalize from '../src/capitalize';
 
 describe('capitalize', () => {
-  test('the input should be capitalized', () => {
+  test('should return the input capitalized', () => {
     expect(capitalize('jest')).toBe('Jest');
   });
 
-  test('one character input should be capitalized', () => {
+  test('should be capitalized with one character input', () => {
     expect(capitalize('j')).toBe('J');
   });
 
-  test('it should return an empty string if the input is empty', () => {
+  test('should return an empty string if the input is empty', () => {
     expect(capitalize('')).toBe('');
-  })
+  });
 
-  test('it should return undefined if the input is not a string', () => {
+  test('should return undefined if the input is not a string', () => {
     expect(capitalize(1)).toBe(undefined);
-  })
+  });
+
+  test('should return the input if the input first char is a number or a symbol', () => {
+    expect(capitalize('1jest')).toBe('1jest');
+    expect(capitalize('%jest')).toBe('%jest');
+  });
 })
