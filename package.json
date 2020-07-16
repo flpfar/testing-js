@@ -1,0 +1,24 @@
+{
+  "name": "testing-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flpfar/testing-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flpfar/testing-js/issues"
+  },
+  "homepage": "https://github.com/flpfar/testing-js#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
+  }
+}
