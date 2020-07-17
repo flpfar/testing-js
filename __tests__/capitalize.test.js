@@ -21,4 +21,4 @@ describe('capitalize', () => {
     expect(capitalize('1jest')).toBe('1jest');
     expect(capitalize('%jest')).toBe('%jest');
   });
-})
+});

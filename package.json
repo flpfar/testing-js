@@ -20,6 +20,9 @@
   "homepage": "https://github.com/flpfar/testing-js#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.10.4",
-    "jest": "^26.1.0"
+    "jest": "^26.1.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }

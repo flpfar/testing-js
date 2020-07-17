@@ -1,6 +1,8 @@
 import calculator from '../src/calculator';
 
-const { add, subtract, multiply, divide } = calculator;
+const {
+  add, subtract, multiply, divide,
+} = calculator;
 
 describe('calculator', () => {
   describe('add', () => {
@@ -65,7 +67,6 @@ describe('calculator', () => {
     test('should return undefined if the second input is zero', () => {
       expect(divide(5, 0)).toBe(undefined);
     });
-
 
     test('should return undefined if the inputs are not numbers', () => {
       expect(divide('1', {})).toBe(undefined);

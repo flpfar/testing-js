@@ -16,4 +16,4 @@ describe('reverseString', () => {
   test('should return undefined if the input is not a string', () => {
     expect(reverseString(1)).toBe(undefined);
   });
-})
+});
